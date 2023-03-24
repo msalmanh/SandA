@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/9650a62e47.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Product Landing Page - MyStore</title>
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <img id="header-img" src="https://example.com/logo.png" alt="logo" class="logo">
+      <ul>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-it-work">How It Works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </ul>
+    </nav>
+  </header>
+  <div id="container">
+    <section class="message-box">
+      <h1>Handcrafted, high-quality products</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="example@mail.com">
+      <input id="submit" type="submit" value="Get Started" class="btn"></input>
+      </form>
+    </section>
+php
+Copy code
+<section id="features">
+  <div class="feature">
+    <i class="fab fa-product-hunt fa-3x"></i>
+    <div>
+      <h2>Premium Materials</h2>
+      <p>Our products use the finest materials which are sourced locally. This ensures the quality and durability of your purchase.</p>
+    </div>
+  </div>
+  <div class="feature">
+    <i class="fas fa-shipping-fast fa-3x"></i>
+    <div>
+      <h2>Fast Shipping</h2>
+      <p>We make sure you receive your order as soon as we can. We also provide free returns if you are not satisfied.</p>
+    </div>
+  </div>
+  <div class="feature">
+    <i class="fas fa-check-circle fa-3x"></i>
+    <div>
+      <h2>Quality Assurance</h2>
+      <p>For every purchase you make, we ensure there are no defects or faults and we check and test the quality of the product.</p>
+    </div>
+  </div>
+</section>
+<section id="how-it-work">
+  <iframe id="video" src="https://www.youtube.com/embed/JEwOy5Fm1yw"></iframe>
+</section>
+<section id="pricing">
+  <div class="price-box">
+    <h3>Product A</h3>
+    <h2>$600</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a href="#" class="btn">SELECT</a>
+  </div>
+  <div class="price-box">
+    <h3>Product B</h3>
+    <h2>$900</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a href="#" class="btn">SELECT</a>
+  </div>
+  <div class="price-box">
+    <h3>Product C</h3>
+       <h2>$1200</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a href="#" class="btn">SELECT</a>
+  </div>
+</section>
+<section id="cta">
+  <h2>Get Started Today</h2>
+  <form id="form-cta" action="https://www.example.com/email-submit">
+    <input id="email-cta" type="email" name="email" placeholder="example@mail.com">
+    <input id="submit-cta" type="submit" value="Get Started" class="btn"></input>
+  </form>
+</section>
+<footer id="footer">
+  <p>&copy; 2023 MyStore. All rights reserved.</p>
+</footer>
